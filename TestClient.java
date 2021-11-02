@@ -9,7 +9,6 @@ public class TestClient {
     
     
     try {
-     RmiInterface rmiinter= (RmiInterface)Naming.lookup("rmi://cti.ubm.ro/AdunaNumere");
      System.out.println ("\n The first no is " + n1);
      System.out.println ("\n The second no is "+ n2);
      double d1, d2;
